@@ -1,25 +1,25 @@
 # GIT-TUTORIAL
 
-##GIT
+#GIT
 ```Free and open source version control system```
 
-##GIT COMMANDS
+#GIT COMMANDS
 
-```->Clone-bring the repo that is hosted on github into a folder on your local machine.
-->add-Track your files and changes in git commit-save your files in Git.
-->push-upload git commits to a remote repo.
-->pull-download changes from remote repo to your local machine.
-->Commit-Save your files in git
-->status```
-
-```-->DIRECTORY: Folder
--->TERMINAL OR COMMAND LINE: Interface for text commands
--->CLI: Command Line Interface
--->cd: Change directory
--->CODE EDITOR: Word processor for writing code.
--->Repository: Project, or the folder/place where your project is kept.
--->GITHUB: A website to host your repositories online.
--->GIT: tool that tracks the changes in your code overtime```
+```->Clone-bring the repo that is hosted on github into a folder on your local machine.```
+```->add-Track your files and changes in git commit-save your files in Git.```
+```->push-upload git commits to a remote repo.```
+```->pull-download changes from remote repo to your local machine.```
+```->Commit-Save your files in git```
+```->status```
+#BASIC TERMS
+```-->DIRECTORY: Folder```
+```-->TERMINAL OR COMMAND LINE: Interface for text commands```
+```-->CLI: Command Line Interface```
+```-->cd: Change directory```
+```-->CODE EDITOR: Word processor for writing code.```
+```-->Repository: Project, or the folder/place where your project is kept.```
+```-->GITHUB: A website to host your repositories online.```
+```-->GIT: tool that tracks the changes in your code overtime```
 
 ##Installing GIT for windows
 
