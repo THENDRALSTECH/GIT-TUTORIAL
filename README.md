@@ -38,7 +38,8 @@ Generting key
 ## CLONE
 ### STEPS
 
-```--> Git cloning
+```
+   --> Git cloning
        git clone (link http or ssh)
    --> To display the everything
          ls-la
@@ -54,14 +55,16 @@ Generting key
       
       
 ## PUSH AND PULL
-  ``` --> To generate keys
+  ``` 
+      --> To generate keys
         ssh-keygen
       --> Push command
         git push origin master
 ```
 ## For creating a local folder
 
-```git init
+```
+     git init
      git status
      git add
      git commit
@@ -131,6 +134,7 @@ Generting key
        
 
 ### FORKING
+```
 --> Complete copy of the repository
 --> It is used to make changes in the file when the user do not have the access to edit.
-       
+  ```     
