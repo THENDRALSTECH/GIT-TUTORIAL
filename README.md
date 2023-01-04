@@ -1,53 +1,50 @@
-```# GIT-TUTORIAL```
+# GIT-TUTORIAL
 
-GIT->Free and open source version control system
+##GIT
+```Free and open source version control system```
 
-GIT COMMANDS
+##GIT COMMANDS
 
-->Clone-bring the repo that is hosted on github into a folder on your local machine.
+```->Clone-bring the repo that is hosted on github into a folder on your local machine.
 ->add-Track your files and changes in git commit-save your files in Git.
 ->push-upload git commits to a remote repo.
 ->pull-download changes from remote repo to your local machine.
 ->Commit-Save your files in git
-->status
+->status```
 
--->DIRECTORY: Folder
+```-->DIRECTORY: Folder
 -->TERMINAL OR COMMAND LINE: Interface for text commands
 -->CLI: Command Line Interface
 -->cd: Change directory
 -->CODE EDITOR: Word processor for writing code.
 -->Repository: Project, or the folder/place where your project is kept.
 -->GITHUB: A website to host your repositories online.
--->GIT: tool that tracks the changes in your code overtime
+-->GIT: tool that tracks the changes in your code overtime```
 
-#Installing GIT for windows
+##Installing GIT for windows
 
-![image](https://user-images.githubusercontent.com/121928201/210593660-b0630c76-81fe-498a-bb17-e9b141cead59.png)
+```![image](https://user-images.githubusercontent.com/121928201/210593660-b0630c76-81fe-498a-bb17-e9b141cead59.png)
 ![image](https://user-images.githubusercontent.com/121928201/210593871-4ea23800-912b-419a-8f0f-2a74ab98d445.png)
 Generting key
-![image](https://user-images.githubusercontent.com/121928201/210593919-27f7de03-88cf-4064-b07e-425de78b2147.png)
--> paste it in the ssh key and adding the repository.
+![image](https://user-images.githubusercontent.com/121928201/210593919-27f7de03-88cf-4064-b07e-425de78b2147.png)```
+###-> paste it in the ssh key and adding the repository.
 
 
-# STEPS TO CLONE
+## CLONE
+###STEPS
 
-## 1) Git cloning
+```1) Git cloning
        git clone (link http or ssh)
-
-## 2) To display the everything
+   2) To display the everything
          ls-la
-      
-## 3) To view the status of the repo
+   3) To view the status of the repo
         git status
-      
-## 4) To track files
+   4) To track files
        git add (filename including extension)
-       
-## Track all changes
+       Track all changes
        git add .
-      
-## 5) To add a message and description
-        git commit -m (filename) -m (description)
+   5) To add a message and description
+        git commit -m (filename) -m (description)```
       
 # STEPS FOR PUSH AND PULL
 
