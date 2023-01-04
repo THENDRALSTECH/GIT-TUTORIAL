@@ -61,11 +61,11 @@ Generting key
 ```
 # For creating a local folder
 
-     ```git init
+```git init
      git status
      git add
      git commit
-     ```
+```
 
 # Create an empty repository in github
      ``` git remote add origin(link of the empty repo)
