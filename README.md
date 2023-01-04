@@ -68,12 +68,12 @@ Generting key
 ```
 
 ### Create an empty repository in github
-     ``` git remote add origin(link of the empty repo)
-     ```
+      git remote add origin(link of the empty repo)
+     
 
 ### For activity or status displaying
-       ```git remote -v
-       ```
+       git remote -v
+       
        
 ### For  Upstreaming
      git push -u origin master/main
@@ -81,10 +81,10 @@ Generting key
 ## GIT_BRANCHING
 
 ```-->Master branch-default branch
- ` Creating the clone of master branch as "feature branch".`
+  Creating the clone of master branch as "feature branch".
 
 -->Feature branch-additional branch
- ` When we make changes in the master branch it does affect the feature branch similarly for master branch.`
+  When we make changes in the master branch it does affect the feature branch similarly for master branch.
 
  -->Hotfix branch-bug fixing branch
 ```
