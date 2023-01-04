@@ -1,9 +1,9 @@
 # GIT-TUTORIAL
 
-# GIT
+## GIT
 ```Free and open source version control system```
 
-# GIT COMMANDS
+## GIT COMMANDS
 
 ```->Clone-bring the repo that is hosted on github into a folder on your local machine.
    ->add-Track your files and changes in git commit-save your files in Git.
@@ -13,7 +13,7 @@
    ->status
 ```
 
-# BASIC TERMS
+## BASIC TERMS
 
 ```-->DIRECTORY: Folder
    -->TERMINAL OR COMMAND LINE: Interface for text commands
@@ -25,7 +25,7 @@
    -->GIT: tool that tracks the changes in your code overtime
 ```
 
-# Installing GIT for windows
+## Installing GIT for windows
 
 ```![image](https://user-images.githubusercontent.com/121928201/210593660-b0630c76-81fe-498a-bb17-e9b141cead59.png)
 ![image](https://user-images.githubusercontent.com/121928201/210593871-4ea23800-912b-419a-8f0f-2a74ab98d445.png)
@@ -53,13 +53,13 @@ Generting key
 ```
       
       
-# PUSH AND PULL
+## PUSH AND PULL
   ``` --> To generate keys
         ssh-keygen
       --> Push command
         git push origin master
 ```
-# For creating a local folder
+## For creating a local folder
 
 ```git init
      git status
@@ -67,18 +67,18 @@ Generting key
      git commit
 ```
 
-# Create an empty repository in github
+### Create an empty repository in github
      ``` git remote add origin(link of the empty repo)
      ```
 
-# For activity or status displaying
+### For activity or status displaying
        ```git remote -v
        ```
        
-# For  Upstreaming
+### For  Upstreaming
      git push -u origin master/main
 
-# GIT_BRANCHING
+## GIT_BRANCHING
 
 ```-->Master branch-default branch
  ` Creating the clone of master branch as "feature branch".`
@@ -88,47 +88,49 @@ Generting key
 
  -->Hotfix branch-bug fixing branch
 ```
-#  BRANCHING
-## STEPS
+###  BRANCHING
+#### STEPS
 
 ## -->  Command to indicate current branch 
-        `git branch`
+        git branch
      
 ## -->  Checkout used to switch between branches 
-       `it checkout -b branchname` 
+       it checkout -b branchname 
   
 ## -->  Add to git repo
-       `git add`
-       `git commit -m (filename) -m (description)`
-       `git push origin master`
+       git add
+       git commit -m (filename) -m (description)
+       git push origin master
 ## --> Combing the step of adding and committing
-       `git commit -am`
+       git commit -am
        
        
-# MERGING BRANCHES
+## MERGING BRANCHES
 
-## To find the difference between branches
+### Difference between branches
      git diff branchname
-## To find the status of the file
+### Status of the file
      git status
-## Push the changes into the repo
+### Push the changes into the repo
      git -u origin branchname
      
-# STEPS TO DELETE A FEATURE BRANCH AFTER MERGING
+## DELETE A FEATURE BRANCH AFTER MERGING
+### STEPS
+
       git branch
       git branch -d branchname
  
- # STEPS TO UNDO A GIT 
+## TO UNDO A GIT
+### STEPS
+
        git reset filename(to remove commit)
        git reset HEAD ~1
- ###### head is a pointer to last commit.
  
- 
- # TO FIND ALL THE COMMITS IN CHRONOLOGICAL ORDER
+ ##  CHRONOLOGICAL ORDER COMMITS
        git log
        
 
-# FORKING
-* Complete copy of the repository
-* It is used to make changes in the file when the user do not have the access to edit.
+### FORKING
+--> Complete copy of the repository
+--> It is used to make changes in the file when the user do not have the access to edit.
        
